@@ -44,15 +44,88 @@ Dalam operasional pengadaan barang (*purchasing/procurement*), keterlambatan pem
 
 ### 2. Status Monitoring Stok & Action Plan (Purchase Order)
 
-| Kode Barang | Nama Barang | Supplier | Stok Saat Ini | Reorder Point (ROP) | Rekomendasi Pesan (Unit) | Estimasi Biaya PO (Rp) | Status |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **BRG-001** | Kardus Box A1 | PT Packindo Utama | 150 | 275 | **600** | Rp 3.000.000 | 🔴 PESAN SEKARANG |
-| **BRG-002** | Lakban Bening | CV Mitra Kemasan | 450 | 120 | 0 | Rp 0 | 🟢 STOK AMAN |
-| **BRG-003** | Plastik Bubble Wrap | PT Packindo Utama | 80 | 210 | **370** | Rp 31.450.000 | 🔴 PESAN SEKARANG |
-| **BRG-004** | Label Stiker Resi | UD Sarana Cetak | 600 | 260 | 0 | Rp 0 | 🟢 STOK AMAN |
-| **BRG-005** | Tali Strapping | PT Packindo Utama | 40 | 75 | **110** | Rp 4.950.000 | 🔴 PESAN SEKARANG |
-| **BRG-006** | Kertas A4 80gr | UD Sarana Cetak | 20 | 74 | **220** | Rp 12.100.000 | 🔴 PESAN SEKARANG |
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th>Kode Barang</th>
+      <th>Nama Barang</th>
+      <th>Supplier</th>
+      <th style="text-align:center;">Stok Saat Ini</th>
+      <th style="text-align:center;">ROP</th>
+      <th style="text-align:center;">Rekomendasi Pesan</th>
+      <th style="text-align:right;">Estimasi Biaya PO</th>
+      <th style="text-align:center;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>BRG-001</strong></td>
+      <td>Kardus Box A1</td>
+      <td>PT Packindo Utama</td>
+      <td align="center">150</td>
+      <td align="center">275</td>
+      <td align="center"><strong>600</strong></td>
+      <td align="right">Rp 3.000.000</td>
+      <td align="center">🔴 PESAN SEKARANG</td>
+    </tr>
+    <tr>
+      <td><strong>BRG-002</strong></td>
+      <td>Lakban Bening</td>
+      <td>CV Mitra Kemasan</td>
+      <td align="center">450</td>
+      <td align="center">120</td>
+      <td align="center">0</td>
+      <td align="right">Rp 0</td>
+      <td align="center">🟢 STOK AMAN</td>
+    </tr>
+    <tr>
+      <td><strong>BRG-003</strong></td>
+      <td>Plastik Bubble Wrap</td>
+      <td>PT Packindo Utama</td>
+      <td align="center">80</td>
+      <td align="center">210</td>
+      <td align="center"><strong>370</strong></td>
+      <td align="right">Rp 31.450.000</td>
+      <td align="center">🔴 PESAN SEKARANG</td>
+    </tr>
+    <tr>
+      <td><strong>BRG-004</strong></td>
+      <td>Label Stiker Resi</td>
+      <td>UD Sarana Cetak</td>
+      <td align="center">600</td>
+      <td align="center">260</td>
+      <td align="center">0</td>
+      <td align="right">Rp 0</td>
+      <td align="center">🟢 STOK AMAN</td>
+    </tr>
+    <tr>
+      <td><strong>BRG-005</strong></td>
+      <td>Tali Strapping</td>
+      <td>PT Packindo Utama</td>
+      <td align="center">40</td>
+      <td align="center">75</td>
+      <td align="center"><strong>110</strong></td>
+      <td align="right">Rp 4.950.000</td>
+      <td align="center">🔴 PESAN SEKARANG</td>
+    </tr>
+    <tr>
+      <td><strong>BRG-006</strong></td>
+      <td>Kertas A4 80gr</td>
+      <td>UD Sarana Cetak</td>
+      <td align="center">20</td>
+      <td align="center">74</td>
+      <td align="center"><strong>220</strong></td>
+      <td align="right">Rp 12.100.000</td>
+      <td align="center">🔴 PESAN SEKARANG</td>
+    </tr>
+  </tbody>
+</table>
 
+<br>
+
+> 💡 **Key Takeaway:** Total anggaran pengadaan yang dibutuhkan untuk 4 barang kritis adalah **Rp 51.500.000,-** dengan alokasi terbesar pada pengadaan bahan proteksi packaging di *PT Packindo Utama*.
+
+<br>
 > 💡 **Key Takeaway:** Total anggaran pengadaan yang dibutuhkan untuk 4 barang kritis adalah **Rp 51.500.000,-** dengan alokasi terbesar pada pengadaan bahan proteksi packaging di *PT Packindo Utama*.
 
 ---
