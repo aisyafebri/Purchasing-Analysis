@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+
 
 # 1. Load Data
 df = pd.read_csv("Purchasing_data.csv")
@@ -53,3 +55,18 @@ total_items_to_buy = len(items_to_order)
 print("\n=== RINGKASAN EKSEKUTIF PURCHASING ===")
 print(f"Total Jenis Barang Harus Dipesan : {total_items_to_buy} Item")
 print(f"Total Estimasi Anggaran Pengadaan: Rp {total_budget:,.2f}")
+
+# Buat Grafik Bar Kebutuhan Anggaran per Supplier
+supplier_cost = df.groupby('Supplier_Name')['Estimated_PO_Cost'].sum().reset_index()
+
+plt.figure(figsize=(8, 4.5))
+bars = plt.bar(supplier_cost['Supplier_Name'], supplier_cost['Estimated_PO_Cost'] / 1e6, color=['#2b5c8f', '#d9534f'])
+plt.title('Estimasi Anggaran Pengadaan per Supplier (dalam Juta Rupiah)', fontsize=12, fontweight='bold')
+plt.xlabel('Nama Supplier')
+plt.ylabel('Total Biaya (Juta Rp)')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Simpan sebagai file gambar
+plt.tight_layout()
+plt.savefig('purchasing_dashboard_chart.png', dpi=300)
+print("Grafik berhasil disimpan sebagai purchasing_dashboard_chart.png!")
