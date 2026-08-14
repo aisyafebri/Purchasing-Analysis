@@ -43,6 +43,7 @@ Dalam operasional pengadaan barang (*purchasing/procurement*), keterlambatan pem
 ![Distribusi Anggaran](purchasing_dashboard_chart.png)
 
 ### 2. Status Monitoring Stok & Action Plan (Purchase Order)
+
 | Kode Barang | Nama Barang | Supplier | Stok Saat Ini | Reorder Point (ROP) | Rekomendasi Pesan (Unit) | Estimasi Biaya PO (Rp) | Status |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
 | **BRG-001** | Kardus Box A1 | PT Packindo Utama | 150 | 275 | **600** | Rp 3.000.000 | 🔴 PESAN SEKARANG |
@@ -53,7 +54,13 @@ Dalam operasional pengadaan barang (*purchasing/procurement*), keterlambatan pem
 | **BRG-006** | Kertas A4 80gr | UD Sarana Cetak | 20 | 74 | **220** | Rp 12.100.000 | 🔴 PESAN SEKARANG |
 
 > 💡 **Key Takeaway:** Total anggaran pengadaan yang dibutuhkan untuk 4 barang kritis adalah **Rp 51.500.000,-** dengan alokasi terbesar pada pengadaan bahan proteksi packaging di *PT Packindo Utama*.
+
+---
+
+## 🚀 Struktur Direktori
+
 ```text
-├── Purchasing_data.csv       # Dataset operasional inventaris & supplier
-├── Purchasing_data_analys.py # Script otomasi analisis data menggunakan Pandas
-└── README.md                 # Dokumentasi proyek
+├── Purchasing_data.csv        # Dataset operasional inventaris & supplier
+├── Purchasing_data_analys.py  # Script otomasi analisis data menggunakan Pandas
+├── purchasing_dashboard_chart.png # Visualisasi grafik anggaran per supplier
+└── README.md                  # Dokumentasi proyek
