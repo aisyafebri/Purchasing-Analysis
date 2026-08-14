@@ -1,0 +1,7 @@
+﻿Order_ID,Item_Code,Item_Name,Category,Stock_On_Hand,Min_Stock,Unit_Cost,Daily_Usage,Lead_Time_Days,Supplier_Name
+PO-1001,BRG-001,Kardus Box A1,Packaging,150,200,5000,25,3,PT Packindo Utama
+PO-1002,BRG-002,Lakban Bening,Packaging,450,100,12000,10,2,CV Mitra Kemasan
+PO-1003,BRG-003,Plastik Bubble Wrap,Packaging,80,150,85000,15,4,PT Packindo Utama
+PO-1004,BRG-004,Label Stiker Resi,ATK,600,200,25000,30,2,UD Sarana Cetak
+PO-1005,BRG-005,Tali Strapping,Packaging,40,50,45000,5,5,PT Packindo Utama
+PO-1006,BRG-006,Kertas A4 80gr,ATK,20,50,55000,8,3,UD Sarana Cetak
